@@ -5,6 +5,7 @@ import {auth} from "../config/firebase"
 import { toast } from "react-toastify";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import Outh from "../components/Outh";
+//remember to add the domain after hosting on authenticated domains under authentication settings
 const SignIn = () => {
   const [passwordVisible, setPasswordVisible] = useState(false);
   const [formData, setFormData] = useState({ email: "", password: "" });

@@ -73,6 +73,7 @@ const Slider = () => {
         useKeyboardArrows
         swipeable
         showThumbs={false}
+        showStatus={false}
         infiniteLoop
         renderArrowPrev={renderArrowPrev}
         renderArrowNext={renderArrowNext}

@@ -148,7 +148,7 @@ const Listing = () => {
             </p>
             {listing.offer && (
               <p className="bg-green-700 p-1 text-white text-md rounded-md my-3 font-semibold w-full text-center max-w-[200px]">
-                ${+listing.regularPrice - +listing.discountedPrice} discount
+                ${(+listing.regularPrice - +listing.discountedPrice).toLocaleString("en-US")} discount
               </p>
             )}
           </div>
