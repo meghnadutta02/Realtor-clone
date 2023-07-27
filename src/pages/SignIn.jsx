@@ -99,13 +99,13 @@ const SignIn = () => {
         </div>
         <div className="flex items-center justify-between text-sm sm:text-lg">
           <Link
-            className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800"
+            className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800 sm:whitespace-nowrap"
             to="/forgot-password"
           >
             Forgot Password?
           </Link>
 
-          <div className="inline-block align-baseline font-bold text-sm text-blue-500 whitespace-nowrap">
+          <div className="inline-block text-right align-baseline font-bold text-sm text-blue-500 sm:whitespace-nowrap">
             Don't have an account?{" "}
             <Link to="/register" className="text-red-500 font-semibold">
               Register
